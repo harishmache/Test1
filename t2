@@ -14,4 +14,4 @@ Java Script:
 
 var Campaign = sforce.sObject(“Campaign”);
 
-var String = sforce.apex.exceute(“ClassName”,”methodName”,{name=”ABC”});
+var String = sforce.apex.exceute(“ClassName”, ”methodName”, {name=”ABC”});
