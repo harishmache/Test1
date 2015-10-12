@@ -1,0 +1,17 @@
+global class ClassName{
+
+      webService static String methodName(String camName) {
+
+            Campaign cam = new Campaign(name = camName);
+
+            return cam.name;
+
+       }
+
+}
+
+Java Script:
+
+var Campaign = sforce.sObject(“Campaign”);
+
+var String = sforce.apex.exceute(“ClassName”,”methodName”,{name=”ABC”});
