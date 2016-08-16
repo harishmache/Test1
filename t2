@@ -12,6 +12,6 @@ global class ClassName{
 
 Java Script:
 
-var Campaign = sforce.sObject(“Campaign”);
+var Campaign = sforce.sObject(“Campaign5”);
 
-var String = sforce.apex.exceute(“ClassName”, ”methodName”, {name=”ABCDEW”});
+var String = sforce.apex.exceute(“ClassName”, ”methodNamenew”, {name=”ABCDEW”});
